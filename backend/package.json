@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "test:paper-lock-authorization": "tsx --test tests/paper-lock-authorization.test.ts",
     "dev": "tsx src/index.ts",
     "dev:old": "tsx src/index.ts",
     "dev:new": "tsx src/server.ts",
